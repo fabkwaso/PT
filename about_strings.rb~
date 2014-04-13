@@ -155,7 +155,7 @@ EOS
       assert_equal 97, ?a
       assert_equal true, ?a == 97
 
-      assert_equal true, ?b == (?a + 1)
+      assert_equal __, ?b == (?a + 1)
     end
   end
 
